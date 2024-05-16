@@ -1,14 +1,213 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfólio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Sawarabi+Mincho&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <script src="./assets/js/svg-inject.min.js"></script>
+
 </head>
 
 <body>
-  <h1>Portfólio</h1>
+  <img src="./assets/image/icon/galho-1.svg" class="galho-1" alt="galho-1">
+  <img src="./assets/image/icon/galho-2.svg" class="galho-2" alt="galho-2">
+  <img src="./assets/image/icon/galho-3.svg" class="galho-3" alt="galho-3">
+
+  <header class="container-grid">
+    <img src="./assets/image/logo-fatec.png" alt="Fatec">
+    <nav>
+      <ul>
+        <li><a href="#home" class="active">Início</a></li>
+        <li><a href="#about">Sobre mim</a></li>
+        <li><a href="#skills">Conhecimentos</a></li>
+        <li><a href="#projects">Projetos</a></li>
+        <li><a href="#extra">Extra</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container-grid">
+    <section id="home">
+      <div>
+        <div class="content-home">
+          <h1>Konnichiwa, eu sou <b>Hugo Hiroichi Ito</b>.</h1>
+          <h2><span id="element"></span>
+          </h2>
+          <a href="curriculo.pdf" download><button>Baixar currículo</button></a>
+        </div>
+        <img src="./assets/image/icon/logo.svg" alt="Logo">
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container-img">
+        <img src="./assets/image/foto.png" alt="foto" class="foto">
+        <img src="./assets/image/icon/mapa.svg" alt="mapa" class="map">
+      </div>
+      <div class="content-about">
+        <h2>Um pouco <b>sobre mim</b>...</h2>
+        <p>Meu nome é Hiroichi, ou “Hiro” (é como me chamam) tenho 20 anos. Sou desenvolvedor frontend que gosta de descobrir o funcionamento das coisas.
+        </p>
+        <p>Gosto estudar e ver meu avanço na área de programação! É muito gratificante! Mas, hoje, eu quero desafios maiores para continuar me desenvolvendo.</p>
+        <div class="about-icon">
+          <a href="https://www.linkedin.com/in/hirows/" target="_blank"><img src="./assets/image/icon/linkedin.svg" alt="linkedin"></a>
+          <a href="https://github.com/Hirows" target="_blank"><img src="./assets/image/icon/github-1.svg" alt="linkedin"></a>
+          <a href="https://www.instagram.com/hirozaum/" target="_blank"><img src="./assets/image/icon/instagram.svg" alt="instagram"></a>
+          <a href="mailto:hirows.dev@gmail.com" target="_blank"><img src="./assets/image/icon/message.svg" alt="linkedin"></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h4>
+        JavaScript
+      </h4>
+      <div class="content-skills">
+        <span>
+          <h2>知識</h2>
+          <h3>Conhecimentos</h3>
+        </span>
+        <p>HTML (Linguagem de Marcação de HiperTexto) é o bloco de construção mais básico da web. Define o significado e a estrutura do conteúdo da web.</p>
+
+      </div>
+      <div class="skills-icon">
+        <div>
+          <img src="./assets/image/icon/html.svg" onload="SVGInject(this)" alt="html">
+        </div>
+        <div>
+          <img src="./assets/image/icon/css.svg" onload="SVGInject(this)" alt="css">
+        </div>
+        <div>
+          <img src="./assets/image/icon/javascript.svg" onload="SVGInject(this)" alt="javascript">
+        </div>
+        <div>
+          <img src="./assets/image/icon/git.svg" onload="SVGInject(this)" alt="git">
+        </div>
+        <div>
+          <img src="./assets/image/icon/github.svg" onload="SVGInject(this)" alt="github">
+        </div>
+        <div>
+          <img src="./assets/image/icon/figma.svg" onload="SVGInject(this)" alt="figma">
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="content-projects">
+        <span>
+          <h2>宿題</h2>
+          <h3>Projetos Acadêmicos</h3>
+        </span>
+        <p>Projetos realizados no curso Sistemas para Internet na faculdade de tecnologia Fatec Lins.</p>
+      </div>
+      <div class="projects-cards">
+        <article>
+          <div class="projects-image">
+            <div class="image-filter">
+              <h3>
+                一番目
+              </h3>
+            </div>
+          </div>
+          <p>Sem. 1</p>
+          <h2>Blog</h2>
+          <button>Saiba Mais</button>
+        </article>
+        <article>
+          <div class="projects-image">
+            <div class="image-filter">
+              <h3>
+                一番目
+              </h3>
+            </div>
+          </div>
+          <p>Sem. 1</p>
+          <h2>Blog</h2>
+          <button>Saiba Mais</button>
+        </article>
+        <article>
+          <div class="projects-image">
+            <div class="image-filter">
+              <h3>
+                一番目
+              </h3>
+            </div>
+          </div>
+          <p>Sem. 1</p>
+          <h2>Blog</h2>
+          <button>Saiba Mais</button>
+        </article>
+        <article>
+          <div class="projects-image">
+            <div class="image-filter">
+              <h3>
+                一番目
+              </h3>
+            </div>
+          </div>
+          <p>Sem. 1</p>
+          <h2>Blog</h2>
+          <button>Saiba Mais</button>
+        </article>
+        <article>
+          <div class="projects-image">
+            <div class="image-filter">
+              <h3>
+                一番目
+              </h3>
+            </div>
+          </div>
+          <p>Sem. 1</p>
+          <h2>Blog</h2>
+          <button>Saiba Mais</button>
+        </article>
+        <article>
+          <div class="projects-image">
+            <div class="image-filter">
+              <h3>
+                一番目
+              </h3>
+            </div>
+          </div>
+          <p>Sem. 1</p>
+          <h2>Blog</h2>
+          <button>Saiba Mais</button>
+        </article>
+
+      </div>
+    </section>
+  </main>
+
+  <footer id="extra">
+    <img src="./assets/image/icon/galho-1.svg" class="galho-footer-1" alt="galho-1">
+    <img src="./assets/image/icon/galho-2.svg" class="galho-footer-2" alt="galho-2">
+    <img src="./assets/image/icon/galho-3.svg" class="galho-footer-3" alt="galho-3">
+    <div class="container-grid">
+      <div class="extra-fotos">
+        <h2>ありがとう</h2>
+        <img src="./assets/image/polaroid-1.png" alt="polaroid-1" class="polaroid-1">
+        <img src="./assets/image/polaroid-2.png" alt="polaroid-2" class="polaroid-2">
+        <img src="./assets/image/polaroid-3.png" alt="polaroid-3" class="polaroid-3">
+      </div>
+      <div class="content-extra">
+        <h3>© 2024 Hugo Hiroichi Ito</h3>
+        <img src="./assets/image/icon/logo.svg" alt="logo">
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Desenvolvedor Frontend Júnior'],
+      typeSpeed: 70,
+    });
+  </script>
 </body>
 
 </html>
