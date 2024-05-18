@@ -1,0 +1,213 @@
+/* Sakura 1 */
+
+.sakura-1 {
+  top: 90px;
+  left: -10px;
+  z-index: 10;
+}
+
+.sakura1-galho {
+  animation: animationSakura1Galho 6s infinite;
+}
+
+@keyframes animationSakura1Galho {
+  40% {
+    transform: rotate(-3deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.sakura1folhas1 {
+  animation: animationSakura1Folha1 6s infinite;
+}
+
+@keyframes animationSakura1Folha1 {
+  0% {
+    opacity: 0;
+    transform: translateY(0px);
+  }
+
+  40% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(100px) rotate(-8deg);
+  }
+}
+
+.sakura1folhas2 {
+  animation: animationSakura1Folha2 6s infinite;
+}
+
+@keyframes animationSakura1Folha2 {
+  0% {
+    opacity: 0;
+    transform: translateY(0px);
+  }
+
+  50% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateY(100px) rotate(8deg);
+  }
+}
+
+/* Sakura 2 */
+
+.sakura-2 {
+  top: -11px;
+  right: 100px;
+  z-index: 10;
+}
+
+.sakura2-galho {
+  animation: animationSakura2Galho 8s infinite;
+}
+
+@keyframes animationSakura2Galho {
+  0% {
+  }
+
+  40% {
+    transform: rotate(-3deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.sakura2folhas1 {
+  animation: animationSakura2Folha1 8s infinite;
+}
+
+@keyframes animationSakura2Folha1 {
+  0% {
+    opacity: 0;
+    transform: translateY(0px);
+  }
+
+  40% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(100px) rotate(-8deg);
+  }
+}
+
+.sakura2folhas2 {
+  animation: animationSakura2Folha2 8s infinite;
+}
+
+@keyframes animationSakura2Folha2 {
+  0% {
+    opacity: 0;
+    transform: translateY(0px);
+  }
+
+  50% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateY(100px) rotate(8deg);
+  }
+}
+
+/* Sakura 3 */
+
+.sakura-3 {
+  top: 500px;
+  right: -20px;
+  z-index: 10;
+}
+
+.sakura3-galho {
+  animation: animationSakura3Galho 10s infinite;
+}
+
+@keyframes animationSakura3Galho {
+  0% {
+  }
+
+  40% {
+    transform: rotate(-3deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.sakura3folhas1 {
+  animation: animationSakura3Folha1 10s infinite;
+}
+
+@keyframes animationSakura3Folha1 {
+  0% {
+    opacity: 0;
+    transform: translateY(0px);
+  }
+
+  40% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(100px) rotate(-8deg);
+  }
+}
+
+.sakura3folhas2 {
+  animation: animationSakura3Folha2 10s infinite;
+}
+
+@keyframes animationSakura3Folha2 {
+  0% {
+    opacity: 0;
+    transform: translateY(0px);
+  }
+
+  50% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateY(100px) rotate(8deg);
+  }
+}
+
+/* Animação Logo */
+
+.headline {
+  animation: MoveUpDown 4s linear;
+}
+
+@keyframes MoveUpDown {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}

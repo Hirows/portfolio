@@ -1,0 +1,61 @@
+#about {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#about .content-about {
+  width: 60%;
+}
+
+#about .container-img {
+  width: 40%;
+  position: relative;
+}
+
+#about .map {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  right: 140px;
+  bottom: -10px;
+  z-index: -1;
+}
+
+#about .content-about h2 {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+#about .content-about h2 b {
+  font-weight: 400;
+  color: var(--red);
+}
+
+#about .content-about p {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 160%;
+  margin: 24px 0;
+}
+
+#about .about-icon {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-top: 48px;
+}
+
+#about .about-icon a {
+  background: var(--red);
+  padding: 10px;
+  border-radius: 100%;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  place-content: center;
+}
+
+#about .about-icon a:hover {
+  background: var(--red-hover);
+}

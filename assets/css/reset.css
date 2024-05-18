@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --red: #ef3340;
+  --white: #ffffff;
+  --blue: #000120;
+  --lightblue: #a6caf7;
+  --red-hover: #ce2d38;
+}
+
+@font-face {
+  font-family: HYDongMeiRenW-2;
+  src: url(../font/HYDongMeiRenW-2.ttf);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Sawarabi Mincho", serif;
+  color: var(--blue);
+}
+
+p,
+a {
+  font-family: "Inter", serif;
+  color: var(--blue);
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+.container-grid {
+  max-width: 1216px;
+  margin: 0 auto;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+body > svg {
+  position: absolute;
+}

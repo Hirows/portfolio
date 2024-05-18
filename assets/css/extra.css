@@ -1,0 +1,75 @@
+#extra {
+  position: relative;
+  margin: 150px 0;
+}
+
+#extra > svg {
+  position: absolute;
+}
+
+.sakuraFooter1 {
+  top: 200px;
+  left: -14px;
+}
+
+.sakuraFooter2 {
+  top: 30px;
+  right: -15px;
+}
+
+.sakuraFooter3 {
+  top: 530px;
+  right: -20px;
+}
+
+#extra .content-extra {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+#extra .content-extra h3 {
+  font-size: 24px;
+  color: var(--blue);
+  font-weight: 300;
+}
+
+#extra .content-extra img {
+  width: 67px;
+}
+
+#extra .extra-fotos {
+  background-image: url(../image/wallpaper-2.png);
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  position: relative;
+}
+
+#extra .extra-fotos h2 {
+  font-size: 96px;
+  color: var(--white);
+  font-weight: 300;
+}
+
+#extra .extra-fotos > img {
+  position: absolute;
+}
+
+.polaroid-1 {
+  top: -112px;
+  right: -123px;
+}
+
+.polaroid-2 {
+  top: 139px;
+  left: -95px;
+}
+
+.polaroid-3 {
+  top: 430px;
+  right: 144px;
+}

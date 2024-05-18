@@ -1,0 +1,78 @@
+#skills {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+#skills .content-skills {
+  width: 50%;
+}
+
+#skills .content-skills span {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+#skills div h3 {
+  font-size: 40px;
+  font-weight: 300;
+}
+
+#skills div h2 {
+  color: var(--red);
+  font-weight: 300;
+  font-family: HYDongMeiRenW-2;
+  font-size: 64px;
+}
+
+#skills div p {
+  color: var(--blue);
+  line-height: 160%;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+#skills .skills-icon {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  flex-wrap: wrap;
+  gap: 32px;
+  width: 40%;
+}
+
+#skills .skills-icon div {
+  border: 4px solid var(--red);
+  border-radius: 100%;
+  padding: 16px;
+  width: 124px;
+  height: 124px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#skills .skills-icon div:hover {
+  background: var(--red);
+}
+
+#skills .skills-icon div:hover path {
+  fill: var(--white);
+}
+
+#skills h4 {
+  font-size: 250px;
+  font-family: HYDongMeiRenW-2;
+  color: var(--lightblue);
+  font-weight: 300;
+  opacity: 30%;
+  position: absolute;
+  top: 50%;
+  left: -250px;
+  transform: translate(0, -50%);
+  z-index: -1;
+}

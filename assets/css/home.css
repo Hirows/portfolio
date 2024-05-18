@@ -1,0 +1,54 @@
+#home {
+  padding: 10px 0;
+  height: 90vh;
+}
+
+#home > div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 150px;
+}
+
+#home .content-home {
+  max-width: 40%;
+}
+
+#home img {
+  max-width: 60%;
+}
+
+#home div h1 {
+  font-size: 40px;
+  line-height: 130%;
+  font-weight: 400;
+}
+
+#home div h1 b {
+  color: var(--red);
+  font-weight: 400;
+}
+
+#home div h2 {
+  font-size: 24px;
+  font-weight: 400;
+  margin: 24px 0 48px 0;
+}
+
+#home div a {
+  background: var(--red);
+  border-radius: 4px;
+  padding: 20px 42px;
+}
+
+#home div a:hover {
+  background: var(--red-hover);
+}
+
+#home div a button {
+  font-size: 20px;
+  color: var(--white);
+  font-weight: 600;
+  background: transparent;
+}

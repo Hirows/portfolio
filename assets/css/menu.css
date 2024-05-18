@@ -1,0 +1,35 @@
+header {
+  padding: 16px 0;
+  height: 10vh;
+  width: 100%;
+  background: rgba(255, 255, 255, 1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9;
+}
+
+header div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header img {
+  width: 124px;
+}
+
+header nav ul {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+header nav ul li a {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+header nav ul li .active {
+  color: var(--red);
+}
