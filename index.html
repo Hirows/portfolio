@@ -20,8 +20,8 @@
 
   <header>
     <div class="container-grid">
-      <img src="./assets/image/logo-fatec.png" alt="Fatec">
-      <nav>
+      <a href="https://www.fateclins.edu.br/web/"><img src="./assets/image/logo-fatec.png" alt="Fatec"></a>
+      <nav id="menu">
         <ul>
           <li><a href="#home" class="active">Início</a></li>
           <li><a href="#about">Sobre mim</a></li>
@@ -65,40 +65,73 @@
     </section>
 
     <section id="skills">
-      <h4>
-        JavaScript
+      <h4 class="titleSkills">
+        Skills
       </h4>
       <div class="content-skills">
         <span>
           <h2>知識</h2>
           <h3>Conhecimentos</h3>
         </span>
-        <p>HTML (Linguagem de Marcação de HiperTexto) é o bloco de construção mais básico da web. Define o significado e a estrutura do conteúdo da web.</p>
+        <p class="descriptionSkills">Passa o mouse para conhecer as tecnologias</p>
 
       </div>
       <div class="skills-icon">
-        <div>
+        <div class="html">
           <img src="./assets/image/icon/html.svg" onload="SVGInject(this)" alt="html">
         </div>
-        <div>
+        <div class="css">
           <img src="./assets/image/icon/css.svg" onload="SVGInject(this)" alt="css">
         </div>
-        <div>
+        <div class="js">
           <img src="./assets/image/icon/javascript.svg" onload="SVGInject(this)" alt="javascript">
         </div>
-        <div>
+        <div class="git">
           <img src="./assets/image/icon/git.svg" onload="SVGInject(this)" alt="git">
         </div>
-        <div>
+        <div class="github">
           <img src="./assets/image/icon/github.svg" onload="SVGInject(this)" alt="github">
         </div>
-        <div>
+        <div class="figma">
           <img src="./assets/image/icon/figma.svg" onload="SVGInject(this)" alt="figma">
         </div>
       </div>
     </section>
 
     <section id="projects">
+
+      <article id="modalS1" class="modal">
+        <div class="modalCard">
+          <div class="modalImage">
+            <p class="modalSem">1</p>
+          </div>
+          <h4>Semestre 1 - Projeto de Sítios Internet</h4>
+          <h3>Projeto: Blog</h3>
+          <p>O projeto busca resolver os seguintes problemas, nas escritas dos artigos que foram feitos nas aulas de Leitura e Produção de Textos, desenvolvimento web aprendido nas aulas de Padrões de Projeto de Sítios Internet, e a formatação de conteúdo para web das aulas de Criação de Conteúdo Web.</p>
+          <div class="modal-geral">
+            <div class="modal-professor">
+              <h3>Professor</h3>
+              <p>Nome do Prof</p>
+            </div>
+            <div class="modal-tecnologias">
+              <h3>Tecnologia</h3>
+              <div>
+                <img src="./assets/image/icon/html.svg" alt="html">
+                <img src="./assets/image/icon/css.svg" alt="css">
+                <img src="./assets/image/icon/javascript.svg" alt="javascript">
+              </div>
+            </div>
+          </div>
+          <div class="modal-buttons">
+            <div class="buttons-search">
+              <button>Visualizar Projeto</button>
+              <button>Ver código-fonte</button>
+            </div>
+            <button id="closeS1" class="modal-close">Fechar</button>
+          </div>
+        </div>
+      </article>
+
       <div class="content-projects">
         <span>
           <h2>宿題</h2>
@@ -117,7 +150,7 @@
           </div>
           <p>Sem. 1</p>
           <h2>Blog</h2>
-          <button>Saiba Mais</button>
+          <button id="buttonS1">Saiba Mais</button>
         </article>
         <article>
           <div class="projects-image">
@@ -129,7 +162,7 @@
           </div>
           <p>Sem. 1</p>
           <h2>Blog</h2>
-          <button>Saiba Mais</button>
+          <button id="buttonS2">Saiba Mais</button>
         </article>
         <article>
           <div class="projects-image">
@@ -141,7 +174,7 @@
           </div>
           <p>Sem. 1</p>
           <h2>Blog</h2>
-          <button>Saiba Mais</button>
+          <button id="buttonS3">Saiba Mais</button>
         </article>
         <article>
           <div class="projects-image">
@@ -153,7 +186,7 @@
           </div>
           <p>Sem. 1</p>
           <h2>Blog</h2>
-          <button>Saiba Mais</button>
+          <button id="buttonS4">Saiba Mais</button>
         </article>
         <article>
           <div class="projects-image">
@@ -165,7 +198,7 @@
           </div>
           <p>Sem. 1</p>
           <h2>Blog</h2>
-          <button>Saiba Mais</button>
+          <button id="buttonS5">Saiba Mais</button>
         </article>
         <article>
           <div class="projects-image">
@@ -177,7 +210,7 @@
           </div>
           <p>Sem. 1</p>
           <h2>Blog</h2>
-          <button>Saiba Mais</button>
+          <button id="buttonS6">Saiba Mais</button>
         </article>
 
       </div>
@@ -201,6 +234,7 @@
       </div>
     </div>
   </footer>
+  <script type="module" src="./assets/js/main.js"></script>
   <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
   <script>
     var typed = new Typed('#element', {
@@ -208,7 +242,6 @@
       typeSpeed: 70,
     });
   </script>
-
 </body>
 
 </html>

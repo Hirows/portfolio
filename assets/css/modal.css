@@ -1,0 +1,139 @@
+.modal {
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(166, 202, 247, 0.4);
+  z-index: 999;
+  width: 100%;
+  height: 100vh;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modalOpen {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.modalCard {
+  background: var(--white);
+  max-width: 1216px;
+  height: auto;
+  border-radius: 4px;
+  padding: 40px;
+}
+
+.modalImage {
+  background-image: url(../image/wallpaper-1.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: 300px;
+  position: relative;
+}
+
+.modalSem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: var(--red);
+  color: var(--white);
+  padding: 8px 16px;
+  border-radius: 4px 0;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+#projects .modal .modalCard > h4 {
+  color: var(--red);
+  font-size: 18px;
+  font-weight: 300;
+  margin: 32px 0 12px 0;
+}
+
+#projects .modal .modalCard > h3 {
+  color: var(--blue);
+  font-size: 32px;
+  margin-bottom: 24px;
+}
+
+#projects .modal .modalCard > p {
+  color: var(--blue);
+  font-size: 20px;
+  line-height: 160%;
+  font-weight: 400;
+}
+
+#projects .modal .modal-buttons .buttons-search button {
+  font-size: 18px;
+  color: var(--white);
+  background: var(--red);
+  font-weight: 500;
+  padding: 16px 48px;
+  border-radius: 4px;
+}
+
+#projects .modal .modal-buttons .buttons-search button:hover {
+  background: var(--red-hover);
+}
+
+#projects .modal .modal-buttons .modal-close {
+  font-size: 18px;
+  color: var(--red);
+  background: rgba(239, 51, 64, 0.1);
+  font-weight: 500;
+  padding: 16px 48px;
+  border-radius: 4px;
+}
+
+#projects .modal .modal-buttons .modal-close:hover {
+  background: var(--red);
+  color: var(--white);
+}
+
+#projects .modal .modal-buttons .buttons-search {
+  display: flex;
+  gap: 24px;
+}
+
+#projects .modal .modal-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#projects .modal .modal-geral {
+  display: flex;
+  gap: 80px;
+  margin-top: 32px;
+  margin-bottom: 40px;
+}
+
+#projects .modal .modal-geral h3 {
+  font-size: 24px;
+  margin-bottom: 24px;
+}
+
+#projects .modal .modal-geral .modal-professor p {
+  font-size: 20px;
+  color: var(--red);
+  line-height: 160%;
+}
+
+#projects .modal .modal-geral .modal-tecnologias h3 {
+  font-size: 24px;
+}
+
+#projects .modal .modal-geral .modal-tecnologias img {
+  width: 40px;
+}
+
+#projects .modal .modal-geral .modal-tecnologias > div {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+

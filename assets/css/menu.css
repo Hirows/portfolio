@@ -28,8 +28,13 @@ header nav ul {
 header nav ul li a {
   font-size: 20px;
   font-weight: 500;
+  transition: 0.3s;
 }
 
 header nav ul li .active {
+  color: var(--red);
+}
+
+header nav ul li a:hover {
   color: var(--red);
 }
