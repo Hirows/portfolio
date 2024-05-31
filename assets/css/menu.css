@@ -38,3 +38,9 @@ header nav ul li .active {
 header nav ul li a:hover {
   color: var(--red);
 }
+
+@media screen and (max-width: 900px) {
+  header nav {
+    display: none;
+  }
+}

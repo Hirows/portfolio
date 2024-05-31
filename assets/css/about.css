@@ -59,3 +59,18 @@
 #about .about-icon a:hover {
   background: var(--red-hover);
 }
+
+@media screen and (max-width: 1700px) {
+  #about .map {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1240px) {
+  #about .content-about {
+    width: 100%;
+  }
+  #about .container-img {
+    display: none;
+  }
+}
