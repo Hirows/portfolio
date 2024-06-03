@@ -1,7 +1,9 @@
+import { menu } from "./menu.js";
 import { skills } from "./skills.js";
 import { modal } from "./modal.js";
 import { scroll } from "./scrollMenu.js";
 
+menu();
 scroll();
 
 skills(".html", "HTML", "desc");

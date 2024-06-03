@@ -1,6 +1,6 @@
 #extra {
   position: relative;
-  margin: 150px 0;
+  padding: 96px 0;
 }
 
 #extra > svg {
@@ -41,6 +41,8 @@
 
 #extra .extra-fotos {
   background-image: url(../image/wallpaper-2.png);
+  background-size: cover;
+  background-position: center;
   height: 700px;
   display: flex;
   align-items: center;
@@ -72,4 +74,28 @@
 .polaroid-3 {
   top: 430px;
   right: 144px;
+}
+
+@media screen and (max-width: 1700px) {
+  #extra svg {
+    display: none;
+  }
+
+  #extra .extra-fotos h2 {
+    font-size: 72px;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  #extra .extra-fotos > img {
+    display: none;
+  }
+
+  #extra .extra-fotos h2 {
+    font-size: 48px;
+  }
+
+  #extra .extra-fotos {
+    height: 500px;
+  }
 }

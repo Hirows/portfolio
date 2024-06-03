@@ -1,5 +1,5 @@
 #projects {
-  height: 100vh;
+  padding: 96px 0;
 }
 
 #projects .content-projects {
@@ -114,4 +114,29 @@
   position: absolute;
   top: 0;
   left: 0;
+}
+
+@media screen and (max-width: 1240px) {
+  #projects .content-projects p {
+    max-width: 100%;
+    font-size: 20px;
+  }
+
+  #projects .projects-cards article {
+    width: 48%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #projects div h3 {
+    font-size: 32px;
+  }
+
+  #projects div span h2 {
+    font-size: 40px;
+  }
+
+  #projects .projects-cards article {
+    width: 100%;
+  }
 }

@@ -1,8 +1,8 @@
 #about {
-  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 96px 0;
 }
 
 #about .content-about {
@@ -67,6 +67,18 @@
 }
 
 @media screen and (max-width: 1240px) {
+  #about .content-about h2 {
+    font-size: 32px;
+  }
+
+  #about .content-about p {
+    font-size: 18px;
+  }
+
+  #about {
+    padding: 32px 0;
+  }
+
   #about .content-about {
     width: 100%;
   }

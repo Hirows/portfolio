@@ -1,9 +1,9 @@
 #skills {
-  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
   position: relative;
+  padding: 96px 0;
 }
 
 #skills .content-skills {
@@ -84,12 +84,33 @@
 }
 
 @media screen and (max-width: 1170px) {
+  #skills div h3 {
+    font-size: 32px;
+  }
+
+  #skills div h2 {
+    font-size: 40px;
+  }
+
+  #skills div p {
+    font-size: 20px;
+  }
+
   #skills {
     flex-wrap: wrap;
     justify-content: flex-start;
   }
 
   #skills .content-skills {
+    width: 100%;
+    margin-bottom: 56px;
+  }
+
+  #skills .skills-icon {
+    justify-content: start;
+  }
+
+  #skills .skills-icon {
     width: 100%;
   }
 }

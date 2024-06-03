@@ -21,18 +21,21 @@
 .modalCard {
   background: var(--white);
   max-width: 1216px;
-  height: auto;
+  height: 90vh;
   border-radius: 4px;
   padding: 40px;
+  margin: 20px;
+  overflow-y: scroll;
 }
 
 .modalImage {
   background-image: url(../image/wallpaper-1.png);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   width: 100%;
   height: 300px;
   position: relative;
+  background-position: center;
 }
 
 .modalSem {
@@ -137,3 +140,26 @@
   gap: 16px;
 }
 
+@media screen and (max-width: 900px) {
+  #projects .modal .modal-buttons {
+    flex-wrap: wrap;
+  }
+
+  #projects .modal .modal-buttons button {
+    width: 100%;
+  }
+
+  #projects .modal .modal-buttons .buttons-search {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  #projects .modal .modal-geral {
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+
+  #projects .modal .modal-buttons .modal-close {
+    margin-top: 24px;
+  }
+}
