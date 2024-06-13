@@ -49,16 +49,38 @@
   position: relative;
 }
 
-#projects .projects-cards article .projects-image {
+#projects .projects-cards article .projects-imageS1,
+.projects-imageS2,
+.projects-imageS3,
+.projects-imageS4,
+.projects-imageS5,
+.projects-imageS6 {
   height: 200px;
   width: 100%;
   border-radius: 4px;
   transition: 0.3s;
-  background: url(../image/wallpaper-1.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 100%;
   position: relative;
+}
+#projects .projects-cards article .projects-imageS1 {
+  background-image: url(../image/semestre-1.png);
+}
+#projects .projects-cards article .projects-imageS2 {
+  background-image: url(../image/semestre-2.jpg);
+}
+#projects .projects-cards article .projects-imageS3 {
+  background-image: url(../image/semestre-3.png);
+}
+#projects .projects-cards article .projects-imageS4 {
+  background-image: url(../image/semestre-4.png);
+}
+#projects .projects-cards article .projects-imageS5 {
+  background-image: url(../image/semestre-1.png);
+}
+#projects .projects-cards article .projects-imageS6 {
+  background-image: url(../image/semestre-1.png);
 }
 
 #projects .projects-cards article .image-filter {
@@ -69,7 +91,7 @@
   display: initial;
 }
 
-#projects .projects-cards article .projects-image .image-filter h3 {
+#projects .projects-cards article .image-filter h3 {
   color: var(--white);
   font-size: 64px;
   font-family: HYDongMeiRenW-2;
